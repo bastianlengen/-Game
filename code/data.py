@@ -3,11 +3,11 @@ class Data:
         # UI
         self.ui = ui
         self._coins = 0
-        self._health = 5  #Underscore means private attribute
+        self._health = 500  #Underscore means private attribute
         self.ui.create_hearts(self._health)
 
         # Overworld
-        self.unlocked_level = 0
+        self.unlocked_level = 5
         self.current_level = 0
 
     @property

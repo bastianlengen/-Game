@@ -154,7 +154,7 @@ class Cloud(Sprite):
 
         # Kill if it's too far on the left
         if self.rect.right <= 0:
-            self.kill
+            self.kill()
 
 
 class Node(pygame.sprite.Sprite):

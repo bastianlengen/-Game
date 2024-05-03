@@ -30,7 +30,7 @@ class Game():
 
         # Import the levels
         self.tmx_maps = {
-            0: load_pygame(join('..', 'data', 'levels', 'omni.tmx')),
+            0: load_pygame(join('..', 'data', 'levels', '0.tmx')),
             1: load_pygame(join('..', 'data', 'levels', '1.tmx')),
             2: load_pygame(join('..', 'data', 'levels', '2.tmx')),
             3: load_pygame(join('..', 'data', 'levels', '3.tmx')),
